@@ -80,9 +80,9 @@ public class DynamicUdfExamples {
                         JdbcConnectorOptions.builder()
                                 .setTableName("public.cep_rules")
                                 .setDriverName("org.postgresql.Driver")
-                                .setDBUrl("jdbc:postgresql://20.5.2.35:5432/postgres")
-                                .setUsername("postgres")
-                                .setPassword("hollysys")
+                                .setDBUrl("jdbc:postgresql://127.0.0.1:5432/postgres")
+                                .setUsername("root")
+                                .setPassword("root")
                                 .build(),
                         3,
                         "udf",
