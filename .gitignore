@@ -9,3 +9,6 @@ logs/
 *.log
 *.DS_Store
 *.class
+/target/
+/flink-dynamic-cep-examples/target
+/flink-dynamic-cep-examples-udfs/target
