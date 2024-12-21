@@ -8,3 +8,4 @@ logs/
 *.pyc
 *.log
 *.DS_Store
+*.class
